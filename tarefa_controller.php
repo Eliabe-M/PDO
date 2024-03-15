@@ -2,7 +2,7 @@
 
 require "tarefa.model.php";
 require "tarefa.service.php";
-require "conexao";
+require "conexao.php";
 
 $acao = isset($_GET['acao']) ? $_GET['acao'] : $acao;
 
